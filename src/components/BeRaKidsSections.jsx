@@ -1255,7 +1255,9 @@ export function Footer() {
                 aria-hidden="true"
               />
               <span>
-                BeRa Kids Çocuk Oyun Evi
+                Adnan Kahveci Mah.
+                <br />
+                Kazım Karabekir Cad. No: 11/1
                 <br />
                 Beylikdüzü / İstanbul
               </span>
@@ -1280,11 +1282,11 @@ export function LocationMap() {
           <div>
             <h2 className="text-xl font-bold text-slate-900">Bizi Ziyaret Edin</h2>
             <p className="mt-1 text-sm text-slate-600">
-              BeRa Kids Çocuk Oyun Evi, Beylikdüzü / İstanbul
+              Adnan Kahveci Mah., Kazım Karabekir Cad. No: 11/1, Beylikdüzü / İstanbul
             </p>
           </div>
           <a
-            href="https://maps.app.goo.gl/X6t836p1ShQpCMH7A"
+            href="https://www.google.com/maps/search/?api=1&query=Adnan%20Kahveci%20Mah.%2C%20Kaz%C4%B1m%20Karabekir%20Cad.%20No%3A%2011%2F1%2C%20Beylikd%C3%BCz%C3%BC%2C%20%C4%B0stanbul"
             target="_blank"
             rel="noreferrer"
             className="text-sm font-semibold text-brandPrimary transition hover:text-indigo-700"
@@ -1294,10 +1296,11 @@ export function LocationMap() {
         </div>
         <iframe
           title="BeRa Kids konum haritası"
-          src="https://maps.google.com/maps?q=40.9944687,28.6184769&z=17&output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3011.406793493025!2d28.61847686767578!3d40.994468688964844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe32670193477bdd%3A0x2d95eda6a9058a46!2sBeRa%20Kids%20%C3%87ocuk%20Oyun%20Evi!5e0!3m2!1sen!2str!4v1791975052706!5m2!1sen!2str"
           className="h-64 w-full rounded-2xl border border-slate-200 sm:h-80"
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         />
       </div>
     </section>
